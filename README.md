@@ -1,5 +1,6 @@
 # dicomUploadPro
 use jnotify to Monitor local dicom folders，upload dicom file to the ftp server And analysis the dicom file with dcm4che
+
 Step 1.put jnotify.dll OR jnotify_64bit.dll to C:\Windows\System32
 
 Step 2.modify eyeTransconfig.properties for adapt to your environment
