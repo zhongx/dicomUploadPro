@@ -45,7 +45,7 @@ public class DicomTrans {
                         JDBCUtils.insert(entity);
                     } catch (Exception e) {
                         e.printStackTrace();
-                        System.err.println("insert success");
+                        System.err.println("insert failure");
                     }
                 }
             } else {
@@ -85,7 +85,7 @@ public class DicomTrans {
                         JDBCUtils.insert(entity);
                     } catch (Exception e) {
                         e.printStackTrace();
-                        System.err.println("insert success");
+                        System.err.println("insert failure");
                     }
                 }
             } else {
